@@ -1,0 +1,6 @@
+name: svm-training
+
+entry_points:
+
+  main:
+    command: "python modelling.py"
