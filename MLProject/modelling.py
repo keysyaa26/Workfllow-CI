@@ -15,7 +15,7 @@ y_test = pd.read_csv('dataset_preprocessed/y_test.csv')
 
 
 # MLflow
-mlflow.set_tracking_uri("file:./mlruns")
+# mlflow.set_tracking_uri("file:./mlruns")
 mlflow.sklearn.autolog()
 
 # Training
